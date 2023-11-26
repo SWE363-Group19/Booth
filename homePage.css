@@ -1,0 +1,415 @@
+@import "~bootstrap/dist/css/bootstrap.min.css";
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kufam&family=Montserrat&family=Prompt:ital,wght@1,300&display=swap');
+
+
+
+h1, h2, h3  {
+  font-family: 'Bebas Neue', sans-serif;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+}
+body {
+    line-height: 1.5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /* ensures contents flow top to bottom */
+    flex-wrap: wrap;
+    margin:0 auto;
+  
+  }
+
+.add-button {
+    position: relative;
+    left: -500px;  /* Keeps the button fixed at the top left */
+    margin-top: 100px !important;
+    background-color: #ffffff; /* Button background color */
+    border: 1px solid #ccc;    /* Button border */
+
+}
+.add-button img {
+    height: 20px;      /* Adjust as needed */
+    width: auto;       /* Maintains the image's aspect ratio */
+    margin-left: 5px;  /* Space between the text and the image */
+}
+/* Replace '#top-section' with the appropriate selector for the top portion of your page */
+button a{
+  color:black;
+  text-decoration: none;
+}
+
+.container.mt-5{
+    margin-top: 50px !important;
+    position:relative;
+}
+.container.text-center {
+    padding-top: 80px; /* adjust this value based on the height of your navbar */
+    max-width: 1080px;
+    width: 100%;
+}
+.filter-bar .dropdown, .filter-bar .input-group {
+    margin: 0 5px;
+}
+
+
+
+  ul{
+    list-style: none;
+  }
+
+  .footer{
+    width: 100%;
+    background-color: #515b6e;
+    margin-top:100px;
+    padding: 70px 0;
+  }
+  .footer-col{
+     width: 25%;
+     padding: 0 15px;
+  }
+  .footer-col h4{
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+  }
+  .footer-col h4::before{
+    content: '';
+    position: absolute;
+    left:0;
+    bottom: -10px;
+    background-color: #e91e63;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+  }
+  .footer-col ul li:not(:last-child){
+    margin-bottom: 10px;
+  }
+  .footer-col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
+  }
+  .footer-col ul li a:hover{
+    color: #ffffff;
+    padding-left: 8px;
+  }
+  .footer-col .social-links a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255,255,255,0.2);
+    margin:0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+    transition: all 0.5s ease;
+  }
+  .footer-col .social-links a:hover{
+    color: #24262b;
+    background-color: #ffffff;
+  }
+  
+
+
+.container_search {
+    display: flex;
+    align-items: center;
+    background-color: #f5f5f5;
+    padding: 10px;
+    border-radius: 8px;
+    margin-top:100px;
+    flex-direction: column;
+}
+
+.add-btn {
+    background-color: #ffd400 !important;
+    color: #333 !important;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+.dropdown {
+    margin: 0 10px;
+    padding: 5px;
+}
+
+.search-input {
+    flex: 1;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.notification {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.noti-btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 16px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+/* ... (your existing CSS) ... */
+
+.new-btn {
+    display: block; /* This will make the buttons stack vertically */
+    background-color: #007bff; /* Blue background */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 16px;
+    cursor: pointer;
+    margin-top: 10px; /* Space between the buttons and the above items */
+}
+.top-section {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.bottom-section {
+    display: flex;
+    justify-content: center; /* Horizontally centers the buttons */
+    width: 100%;
+    margin-top: 10px; /* Adds some space above the new buttons */
+}
+.new-btn {
+    background-color: #007bff; /* Blue background */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 16px;
+    cursor: pointer;
+    margin: 0 5px; /* Gives some space between the two buttons */
+}
+
+
+button{
+  align-self: center;
+  background-color: #41403e !important;
+  background-image: none;
+  background-position: 0 90%;
+  background-repeat: repeat no-repeat;
+  background-size: 4px 3px;
+  border-radius: 15px 225px 255px 15px 15px 255px 225px 15px;
+  border-style: solid;
+  border-width: 2px;
+  box-shadow: rgba(0, 0, 0, .2) 15px 28px 25px -18px;
+  box-sizing: border-box;
+  color: #fff !important; 
+  cursor: pointer;
+  display: inline-block;
+  font-family: Neucha, sans-serif;
+  font-size: 1rem;
+  line-height: 23px;
+  outline: none;
+  padding: 0.40rem 0.75rem;
+  text-decoration: none;
+  transition: all 235ms ease-in-out;
+  border-bottom-left-radius: 15px 255px;
+  border-bottom-right-radius: 225px 15px;
+  border-top-left-radius: 255px 15px;
+  border-top-right-radius: 15px 225px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+button:hover {
+  box-shadow: rgba(0, 0, 0, .3) 2px 8px 8px -5px;
+  transform: translate3d(0, 2px, 0);
+}
+
+button:focus {
+  box-shadow: rgba(0, 0, 0, .3) 2px 8px 4px -6px;
+}
+/* CSS for card hover effect */
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for transform and shadow */
+}
+
+.card:hover {
+  transform: scale(1.05); /* Increase the size of the card */
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25); /* Add shadow */
+  z-index: 10; /* Ensure the card is above other elements */
+}
+
+/* Additional styling for the button inside the card to make it more noticeable on hover */
+.card button {
+  transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition for button color */
+}
+
+.card:hover button {
+  background-color: #007bff; /* Change button background color */
+  color: white; /* Change button text color */
+}
+
+/* Other styles remain unchanged... */
+
+/* Mobile styles */
+@media (max-width: 767px) {
+  .container_search {
+    flex-direction: column; /* Stacks children vertically */
+  }
+  .search-input {
+    width: 100%; /* Full width for the search input */
+    margin: 10px 0; /* Add some margin top and bottom for spacing */
+  }
+  .dropdown, .noti-btn, .add-btn {
+    width: 100%; /* Full width for dropdown, notification, and add button */
+    margin: 10px 0; /* Add some margin top and bottom for spacing */
+  }
+  .notification {
+    flex-direction: column; /* Stack notification icon and text vertically */
+  }
+  .bottom-section .new-btn {
+    width: 100%; /* Full width for new buttons */
+    margin: 10px 0; /* Add some margin top and bottom for spacing */
+  }
+  .top-section, .bottom-section {
+    flex-direction: column; /* Stacks children vertically */
+  }
+  
+  
+  
+}
+
+
+/* Mobile styles */
+@media (max-width: 767px) {
+  body {
+    width: auto; /* Removes the fixed width */
+    padding: 0 15px; /* Adds some padding on smaller screens */
+  }
+  .card {
+    width: 100%; /* Full width for cards */
+    margin: 10px 0; /* Add some margin top and bottom for spacing */
+  }
+  .add-button {
+    left: initial; /* Resets the position */
+    margin-top: 20px;
+    margin-left: auto; /* Centers the button */
+    margin-right: auto; /* Centers the button */
+  }
+
+  .container.mt-5, .container.text-center {
+    padding-top: 40px; /* Smaller padding at the top */
+  }
+
+  .footer {
+    padding: 50px 20px; /* Smaller padding for footer */
+  }
+  .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+}
+
+  /* ... (other existing media query styles) ... */
+
+  button {
+    width: 100%; /* Full width for buttons */
+    margin-top: 15px; /* Adds some space between buttons */
+  }
+
+  .top-section, .bottom-section {
+    padding: 0 15px; /* Adds padding to the sections */
+  }
+  .container.text-center{
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+.dropdown {
+  display: none;
+}
+
+/* When the container of the search bar is focused, show the dropdowns */
+.container_search:focus-within .dropdown {
+  display: block;
+}
+}
+
+@media (max-width: 576px) {
+  /* Adjust styles specifically for phone sizes */
+
+  .container, .container.text-center {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .footer-col {
+    width: 100%;
+    padding: 0 15px; /* Ensures padding is consistent */
+  }
+
+  .footer-col h4 {
+    text-align: center; /* Centers footer headings */
+  }
+
+  .footer-col ul {
+    padding: 0; /* Resets padding */
+    text-align: center; /* Centers the list */
+  }
+
+  .footer-col ul li a {
+    padding: 5px; /* Adds padding for tap targets */
+  }
+
+  .footer-col .social-links a {
+    margin: 0 auto; /* Centers the social links */
+    display: block; /* Stacks the links */
+    margin-bottom: 10px; /* Adds space between the links */
+  }
+
+  /* Adjust the search and other input/button elements */
+  .container_search, .notification, .dropdown, .noti-btn, .add-btn, .search-input {
+    width: 100%; /* Ensures full width */
+  }
+
+  .search-input, .dropdown, .noti-btn, .add-btn {
+    margin-top: 10px; /* Adds space between these elements */
+  }
+
+  /* Stacking buttons vertically in .bottom-section */
+  .bottom-section .new-btn {
+    width: calc(50% - 10px); /* Adjusts the width to fill half of the container minus margin */
+    margin: 5px; /* Adds margin for spacing */
+  }
+    .footer-col{
+      width: 100%;
+    }
+    .dropdown {
+      display: none;
+    }
+    
+    /* When the container of the search bar is focused, show the dropdowns */
+    .container_search:focus-within .dropdown {
+      display: block;
+    }
+  }
+  
+
+
+
