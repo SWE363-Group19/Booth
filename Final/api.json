@@ -1,0 +1,131 @@
+{
+    "items": [
+      {
+        "name": "ABC Company",
+        "price": 2500,
+        "city": "Riyadh",
+        "category": "Company"
+      },
+      {
+        "name": "XYZ Corporation",
+        "price": 4200,
+        "city": "Jeddah",
+        "category": "Company"
+      },
+      {
+        "name": "123 Industries",
+        "price": 3000,
+        "city": "Dammam",
+        "category": "Company"
+      },
+      {
+        "name": "Tech Innovators",
+        "price": 1500,
+        "city": "Khobar",
+        "category": "Company"
+      },
+      {
+        "name": "Global Solutions",
+        "price": 4800,
+        "city": "Mecca",
+        "category": "Company"
+      },
+      {
+        "name": "Smart Ventures",
+        "price": 2000,
+        "city": "Medina",
+        "category": "Company"
+      },
+      {
+        "name": "Eco Enterprises",
+        "price": 3500,
+        "city": "Tabuk",
+        "category": "Company"
+      },
+      {
+        "name": "Future Trends",
+        "price": 1200,
+        "city": "Hail",
+        "category": "Company"
+      },
+      {
+        "name": "Innovate Arabia",
+        "price": 4300,
+        "city": "Najran",
+        "category": "Company"
+      },
+      {
+        "name": "Golden Opportunities",
+        "price": 2800,
+        "city": "Buraidah",
+        "category": "Company"
+      },
+      {
+        "name": "DEF Company",
+        "price": 3000,
+        "city": "Khamis",
+        "category": "Company"
+      },
+      {
+        "name": "Coffee Haven",
+        "price": 2000,
+        "city": "Riyadh",
+        "category": "Cafeteria"
+      },
+      {
+        "name": "Tea Time Delight",
+        "price": 3500,
+        "city": "Jeddah",
+        "category": "Cafeteria"
+      },
+      {
+        "name": "Snack Shack",
+        "price": 1200,
+        "city": "Dammam",
+        "category": "Cafeteria"
+      },
+      {
+        "name": "Sweet Treats Corner",
+        "price": 4800,
+        "city": "Khobar",
+        "category": "Cafeteria"
+      },
+      {
+        "name": "Beverage Bliss",
+        "price": 3000,
+        "city": "Mecca",
+        "category": "Cafeteria"
+      },
+      {
+        "name": "Crispy Bites Cafe",
+        "price": 4200,
+        "city": "Medina",
+        "category": "Cafeteria"
+      },
+      {
+        "name": "Healthy Sips Cafe",
+        "price": 1500,
+        "city": "Tabuk",
+        "category": "Cafeteria"
+      },
+      {
+        "name": "Quick Byte Cafe",
+        "price": 2800,
+        "city": "Hail",
+        "category": "Cafeteria"
+      },
+      {
+        "name": "Yummy Munchies",
+        "price": 4300,
+        "city": "Najran",
+        "category": "Cafeteria"
+      },
+      {
+        "name": "Fresh Flavor Cafe",
+        "price": 1000,
+        "city": "Buraidah",
+        "category": "Cafeteria"
+      }
+    ]
+  }
+  

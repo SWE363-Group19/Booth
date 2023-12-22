@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Booths</title>
+    <link href="css/footer.css" rel="stylesheet">
+
+</head>
+<body>
+
+    <main>
+        <div class="container">
+            <h1 class="contact-header">Contact Us</h1>
+            <form class="contact-form" action="submit_form.php" method="post">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Your name" required>
+                
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Your email" required>
+                
+                <label for="message">Message</label>
+                <textarea id="message" name="message" placeholder="Your message" rows="5" required></textarea>
+                
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+        <a href="/homePage" class="home-link">Return to Home</a>
+    </main>
+
+
+</body>
+</html>
