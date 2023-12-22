@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kufam&family=Montserrat&family=Prompt:ital,wght@1,300&display=swap');
+
+
+
+h1, h2, h3  {
+  font-family: 'Bebas Neue', sans-serif;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+}
+.container {
+    margin-top: 100px;
+    max-width: 800px; /* Maximum width for larger devices */
+    width: 90%; /* Responsive width */
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-sizing: border-box; /* Includes padding in the width */
+}
+
+.image-container {
+    position: relative;
+    width: 100%;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+}
+
+.share-button, .save-button {
+    position: absolute;
+    top: 10px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.share-button {
+    right: 90px;
+}
+
+.save-button {
+    right: 10px;
+}
+
+.info p, .description p {
+    margin: 5px 0;
+}
+
+
+
+/* CSS */
+button{
+  align-self: center;
+  background-color: #fff;
+  background-image: none;
+  background-position: 0 90%;
+  background-repeat: repeat no-repeat;
+  background-size: 4px 3px;
+  border-radius: 15px 225px 255px 15px 15px 255px 225px 15px;
+  border-style: solid;
+  border-width: 2px;
+  box-shadow: rgba(0, 0, 0, .2) 15px 28px 25px -18px;
+  box-sizing: border-box;
+  color: #41403e;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Neucha, sans-serif;
+  font-size: 1rem;
+  line-height: 23px;
+  outline: none;
+  padding: .75rem;
+  text-decoration: none;
+  transition: all 235ms ease-in-out;
+  border-bottom-left-radius: 15px 255px;
+  border-bottom-right-radius: 225px 15px;
+  border-top-left-radius: 255px 15px;
+  border-top-right-radius: 15px 225px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+button:hover {
+  box-shadow: rgba(0, 0, 0, .3) 2px 8px 8px -5px;
+  transform: translate3d(0, 2px, 0);
+}
+
+button:focus {
+  box-shadow: rgba(0, 0, 0, .3) 2px 8px 4px -6px;
+}
+button a,button a:hover{
+    color: black;
+}
+@media (max-width: 768px) {
+    .container {
+        width: 95%; /* Slightly narrower margin on small screens */
+        margin-top: 50px; /* Less space on top */
+    }
+
+    .image-container img {
+        /* Ensure images are not too large on mobile */
+        max-width: 100%;
+        height: auto;
+    }
+
+    .share-button, .save-button {
+        /* Position might need adjustment on mobile */
+        top: auto;
+        bottom: 10px; /* Move to bottom of the image container */
+        right: 10px; /* Align to the right */
+    }
+
+    .save-button {
+        right: 60px; /* Space out from the share button */
+    }
+
+    button {
+        /* Buttons should not overlap or go off-screen */
+        position: static; /* Normal document flow */
+        margin: 10px auto; /* Center the button with auto margins */
+        box-shadow: none; /* Remove shadow to reduce visual clutter */
+    }
+
+    button:hover, button:focus {
+        /* Simplify hover and focus styles for mobile */
+        box-shadow: none;
+        transform: none;
+    }
+    
+    button a, button a:hover {
+        /* Ensure link colors are consistent */
+        color: #41403e;
+    }
+}
+@media (max-width: 576px) {
+    .container {
+        width: 100%; /* Use the full width of the screen */
+        margin-top: 20px; /* Reduce the top margin */
+        padding: 5px; /* Reduce padding */
+    }
+
+    .image-container img {
+        /* Ensure images are not too large on mobile */
+        max-width: 100%;
+        height: auto;
+    }
+
+    .share-button, .save-button {
+        position: static; /* Stack the buttons under the image */
+        display: block; /* Each button takes full width */
+        margin: 10px auto; /* Center buttons with automatic margins */
+        width: 90%; /* Adjust width for mobile */
+    }
+
+    button {
+        /* Adapt the button size and margin for smaller screens */
+        margin: 10px auto; /* Center the button with auto margins */
+        width: 90%; /* Adjust width for mobile */
+    }
+
+    .info p, .description p {
+        margin: 10px 0; /* Add more vertical space between paragraphs */
+    }
+
+    /* You might want to adjust font sizes for readability on small screens */
+    h1, h2, h3 {
+        font-size: 1.5rem; /* Adjust heading font size */
+    }
+
+    p {
+        font-size: 0.9rem; /* Adjust paragraph font size */
+    }
+
+    button a, button a:hover {
+        /* Ensure link colors are consistent and legible */
+        color: #41403e;
+        font-size: 0.9rem; /* Adjust font size for readability */
+    }
+}
